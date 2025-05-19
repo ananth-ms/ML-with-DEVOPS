@@ -8,8 +8,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-df = pd.read_csv('C:\\Users\\AnanthM\\Documents\\spam_ml\\email_origin\\email_origin.csv')
-dff = pd.read_csv('C:\\Users\\AnanthM\\Documents\\spam_ml\\email_text\\email_text.csv')
+df = pd.read_csv('path\\to\email_origin\\email_origin.csv')
+dff = pd.read_csv('path\\to\\email_text\\email_text.csv')
 
 
 tfidf_vectorizer = TfidfVectorizer()
