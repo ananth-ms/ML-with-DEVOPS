@@ -6,9 +6,9 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-model = joblib.load('path\\to\\model.joblib')
-label_encoder = joblib.load('path\\to\\label_encoder.joblib')
-tfidf_vectorizer = joblib.load('path\\to\\tfidf_vectorizer.joblib')
+model = joblib.load('path\to\model.joblib')
+label_encoder = joblib.load('path\to\label_encoder.joblib')
+tfidf_vectorizer = joblib.load('path\to\tfidf_vectorizer.joblib')
 
 #tfidf_vectorizer = TfidfVectorizer()
 
